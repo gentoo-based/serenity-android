@@ -247,7 +247,7 @@ impl WsClient {
                 properties: IdentifyProperties {
                     browser: "Discord iOS",
                     device: "Discord iOS",
-                    os: "",
+                    os: consts::OS,
                 },
                 presence: PresenceUpdateMessage {
                     afk: false,
