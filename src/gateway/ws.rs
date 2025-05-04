@@ -245,8 +245,8 @@ impl WsClient {
                 compress: true,
                 large_threshold: constants::LARGE_THRESHOLD,
                 properties: IdentifyProperties {
-                    browser: "Discord Android",
-                    device: "Discord Android",
+                    browser: "Discord iOS",
+                    device: "Discord iOS",
                     os: "",
                 },
                 presence: PresenceUpdateMessage {
